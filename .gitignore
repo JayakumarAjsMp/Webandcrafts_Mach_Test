@@ -1,0 +1,12 @@
+.DS_Store
+## Build generated
+build/
+DerivedData/
+# Please donot ignore --> */*.xcodeproj/project.pbxproj
+*/*.xcodeproj/project.xcworkspace/
+*/*.xcodeproj/xcuserdata/
+*/*.xcworkspace/
+*/*.xcodeproj/xcshareddata/
+*/Pods/
+*/*.framework
+*/Firebase*
