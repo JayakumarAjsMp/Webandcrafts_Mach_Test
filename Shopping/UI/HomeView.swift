@@ -255,7 +255,11 @@ struct HomeView: View {
             } else {
                 VStack {
                     Spacer()
-                    Text("Loading ...")
+                    HStack {
+                        Spacer()
+                        Text("Loading ...")
+                        Spacer()
+                    }
                     Spacer()
                 }
             }
